@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(#0A2C59, #14488C, #092140, #1B70A6) fixed;
+    margin: 0px;
+}
+
+header{
+    padding: 2rem;
+}
+
+header h1{
+    color: snow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    background-color: #5c91b3;
+    margin-top: 2%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 25px;
+    border-color: black;
+    border: 5px solid;
+    height: 500px;
+}
+
+.container h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: snow;
+    font-size: 30px;
+    margin-top: 0.5%;
+}
+
+.container input{
+    margin-bottom: 0.5rem;
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: auto;
+    
+}
+
+.container input:hover{
+    background-color: rgb(123, 145, 247);
+}
+
+.container button{
+    border-radius: 25px;
+    background-color: snow;
+    font-size: large;
+    font-family: cursive;
+    padding: auto;
+}
+
+
+ul li{
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+}
+li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin-top: auto;
+    color: whitesmoke;
+    background-color: #05162c;
+}
+
+.result {
+    font-size: 25px;
+    font-family: cursive;
+    color: #0A2C59;
+}
+
